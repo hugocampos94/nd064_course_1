@@ -1,0 +1,7 @@
+apiVersion: v1
+data:
+  {{ .Values.configMap.versionKey }}: {{ .Values.configMap.versionValue }}
+kind: ConfigMap
+metadata:
+  name: {{ .Values.image.name }}-{{ .Values.configMap.versionKey }}
+  namespace: {{ .Values.namespace.name }}
