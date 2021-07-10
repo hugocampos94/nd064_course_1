@@ -1,6 +1,7 @@
 namespace:
   name: prod
 replicaCount: 2
+deployName: nginx-prod
 image:
   name: nginx
   tag: 1.17.0

@@ -1,6 +1,7 @@
 namespace:
   name: demo
 replicaCount: 3
+deployName: nginx-test
 image:
   name: nginx
   tag: alpine

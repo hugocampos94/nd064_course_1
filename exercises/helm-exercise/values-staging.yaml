@@ -1,6 +1,7 @@
 namespace:
   name: staging
 replicaCount: 1
+deployName: nginx-staging
 image:
   name: nginx
   tag: 1.18.0
